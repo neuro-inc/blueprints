@@ -11,34 +11,22 @@
       <div class="container">
         <nav class="mlops-nav">
           <!-- add desired fill color in `data-color` and company-name in `data-attr` -->
-          <div class="option active" data-color="#FE9B7C" data-attr="company-a">
+          <div class="option active" data-color="#FE9B7C" data-attr="neuro">
             <span class="check"></span>
-            <div class="logo"><img src="assets/logos/ai-infrastructure.svg" alt="sample logo" /></div>
-            Company A
+            <!-- <div class="logo"><img src="assets/logos/ai-infrastructure.svg" alt="sample logo" /></div> -->
+            Neu.ro
           </div>
-          <div class="option" data-color="#8DE7BD" data-attr="company-b">
+          <div class="option active" data-color="#8DE7BD" data-attr="pachy">
             <span class="check"></span>
-            Company B
+            Pachyderm
           </div>
-          <div class="option" data-color="#D8D4A7" data-attr="company-c">
+          <div class="option active" data-color="#D8D4A7" data-attr="seldon">
             <span class="check"></span>
-            Company C
+            Seldon
           </div>
-          <div class="option" data-color="#EE7676" data-attr="company-d">
+          <div class="option active" data-color="#BCE8F0" data-attr="mlflow">
             <span class="check"></span>
-            Company D
-          </div>
-          <div class="option" data-color="#DB9FCA" data-attr="company-e">
-            <span class="check"></span>
-            Company E
-          </div>
-          <div class="option" data-color="#BCE8F0" data-attr="company-f">
-            <span class="check"></span>
-            Company F
-          </div>
-          <div class="option" data-color="#F0D489" data-attr="company-g">
-            <span class="check"></span>
-            Company G
+            MLflow
           </div>
         </nav>
         <div class="mlops-wrapper mlops-stack__image">
@@ -47,11 +35,11 @@
 
               <!-- add class `paint-[company-name]` to all relevant linearGradients -->
               <!-- NOTEBOOKS -->
-              <linearGradient id="paint-notebooks" class="paint paint-company-c" x1="550" y1="30"
+              <linearGradient id="paint-notebooks" class="paint paint-neuro paint-pachy" x1="550" y1="30"
                 x2="760" y2="30" gradientUnits="userSpaceOnUse"></linearGradient>
 
               <!-- DASHBOARDS -->
-              <linearGradient id="paint-dashboards" class="paint paint-company-b paint-company-c"
+              <linearGradient id="paint-dashboards" class="paint paint-neuro paint-seldon"
                 x1="780" y1="30" x2="1090" y2="30" gradientUnits="userSpaceOnUse"></linearGradient>
 
               <!-- CODE REPO -->
@@ -59,7 +47,7 @@
                 gradientUnits="userSpaceOnUse"></linearGradient>
 
               <!-- DATA SCIENCE EXPERIMENTATION PIPELINE -->
-              <linearGradient id="paint-datasci-pipeline" class="paint paint-company-b paint-company-c" x1="400"
+              <linearGradient id="paint-datasci-pipeline" class="paint paint-neuro" x1="400"
                 y1="120" x2="1380" y2="120" gradientUnits="userSpaceOnUse"></linearGradient>
 
               <!-- RBAC -->
@@ -68,74 +56,74 @@
               </linearGradient>
 
               <!-- DATA ENGINEERING ORCHESTRATION PIPELINE -->
-              <linearGradient id="paint-dataeng-pipeline" class="paint paint-company-b paint-company-e" x1="150" y1="220" x2="1130" y2="220"
+              <linearGradient id="paint-dataeng-pipeline" class="paint paint-pachy paint-neuro" x1="150" y1="220" x2="1130" y2="220"
                 gradientUnits="userSpaceOnUse"></linearGradient>
 
               <!-- EXTERNAL DATA SOURCES -->
-              <linearGradient id="paint-external-data" class="paint paint-company-a" x1="0" y1="390" x2="130" y2="390"
+              <linearGradient id="paint-external-data" class="paint paint-neuro" x1="0" y1="390" x2="130" y2="390"
                 gradientUnits="userSpaceOnUse"></linearGradient>
 
               <!-- LABELING -->
-              <linearGradient id="paint-labeling" class="paint paint-company-g" x1="165" y1="460" x2="365" y2="460"
+              <linearGradient id="paint-labeling" class="paint" x1="165" y1="460" x2="365" y2="460"
                 gradientUnits="userSpaceOnUse"></linearGradient>
 
               <!-- DATA ENGINEERING ENGINE -->
-              <linearGradient id="paint-data-eng" class="paint paint-company-b" x1="150" y1="370" x2="380" y2="370"
+              <linearGradient id="paint-data-eng" class="paint paint-pachy" x1="150" y1="370" x2="380" y2="370"
                 gradientUnits="userSpaceOnUse"></linearGradient>
 
               <!-- EXPERIMENTATION ENGINE -->
-              <linearGradient id="paint-experimentation" class="paint paint-company-b paint-company-c" x1="400"
+              <linearGradient id="paint-experimentation" class="paint paint-pachy paint-neuro" x1="400"
                 y1="370" x2="630" y2="370" gradientUnits="userSpaceOnUse"></linearGradient>
 
               <!-- MODEL TESTING / VALIDATION ENGINE -->
-              <linearGradient id="paint-model-testing" class="paint paint-company-e" x1="665" y1="460" x2="865"
+              <linearGradient id="paint-model-testing" class="paint" x1="665" y1="460" x2="865"
                 y2="460" gradientUnits="userSpaceOnUse"></linearGradient>
               
               <!-- TRAINING ENGINE -->
-              <linearGradient id="paint-training" class="paint paint-company-c paint-company-e" x1="650" y1="370"
+              <linearGradient id="paint-training" class="paint paint-neuro" x1="650" y1="370"
                 x2="880" y2="370" gradientUnits="userSpaceOnUse"></linearGradient>
               
               <!-- MODEL REPO -->
-              <linearGradient id="paint-model-repo" class="paint paint-company-e paint-company-d" x1="915"
+              <linearGradient id="paint-model-repo" class="paint paint-mlflow" x1="915"
                 y1="460" x2="1115" y2="460" gradientUnits="userSpaceOnUse"></linearGradient>
               
               <!-- DEPLOYMENT ENGINE -->
-              <linearGradient id="paint-deployment" class="paint paint-company-d" x1="900"
+              <linearGradient id="paint-deployment" class="paint paint-seldon" x1="900"
                 y1="370" x2="1130" y2="370" gradientUnits="userSpaceOnUse"></linearGradient>
               
               <!-- SERVING ENGINE -->
-              <linearGradient id="paint-serving" class="paint paint-company-d" x1="1150" y1="370" x2="1380"
+              <linearGradient id="paint-serving" class="paint paint-seldon" x1="1150" y1="370" x2="1380"
                 y2="370" gradientUnits="userSpaceOnUse"></linearGradient>
 
               <!-- SYNTHETIC DATA -->
-              <linearGradient id="paint-synthetic-data" class="paint paint-company-b" x1="1" y1="471" x2="129" y2="609"></linearGradient>
+              <linearGradient id="paint-synthetic-data" class="paint" x1="1" y1="471" x2="129" y2="609"></linearGradient>
               
               <!-- MODEL SECURITY ALERTING ENGINE -->
-              <linearGradient id="paint-msae" class="paint paint-company-f" x1="1400" y1="245" x2="1530" y2="245"
+              <linearGradient id="paint-msae" class="paint paint" x1="1400" y1="245" x2="1530" y2="245"
                 gradientUnits="userSpaceOnUse"></linearGradient>
               
               <!-- LOGGING ENGINE -->
-              <linearGradient id="paint-logging" class="paint paint-company-c paint-company-d paint-company-f" x1="1400"
+              <linearGradient id="paint-logging" class="paint paint-neuro paint-seldon" x1="1400"
                 y1="395" x2="1530" y2="395" gradientUnits="userSpaceOnUse"></linearGradient>
               
               <!-- MONITORING -->
-              <linearGradient id="paint-monitoring" class="paint paint-company-c paint-company-e paint-company-f" x1="400" y1="550" x2="1380"
+              <linearGradient id="paint-monitoring" class="paint paint-neuro paint-seldon" x1="400" y1="550" x2="1380"
                 y2="550" gradientUnits="userSpaceOnUse"></linearGradient>
               
               <!-- METADATA STORE -->
-              <linearGradient id="paint-metadata-store" class="paint paint-company-c"
+              <linearGradient id="paint-metadata-store" class="paint paint-pachy"
                 x1="590" y1="680" x2="1190" y2="680" gradientUnits="userSpaceOnUse"></linearGradient>
               
               <!-- FEATURE STORE -->
-              <linearGradient id="paint-feature-store" class="paint paint-company-b" x1="165" y1="655" x2="625" y2="655"
+              <linearGradient id="paint-feature-store" class="paint" x1="165" y1="655" x2="625" y2="655"
                 gradientUnits="userSpaceOnUse"></linearGradient>
               
               <!-- DATA FOUNDATION -->
-              <linearGradient id="paint-data-foundation" class="paint paint-company-b" x1="150" y1="735" x2="1380" y2="735"
+              <linearGradient id="paint-data-foundation" class="paint paint-pachy" x1="150" y1="735" x2="1380" y2="735"
                 gradientUnits="userSpaceOnUse"></linearGradient>
               
               <!-- CLOUD OR ON-PREM INFRASTRUCTURE -->
-              <linearGradient id="paint-cloud" class="paint paint-company-a" x1="150" y1="845" x2="1380" y2="845"
+              <linearGradient id="paint-cloud" class="paint paint-neuro" x1="150" y1="845" x2="1380" y2="845"
                 gradientUnits="userSpaceOnUse"></linearGradient>
             </defs>
 
