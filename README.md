@@ -7,6 +7,7 @@ The easiest way to update the files is via the Figma versions of the files, loca
 # Neu.ro-related interactive versions of blueprints
 
 * Neu.ro-Pachy-Seldon-MLflow stack [preview](https://neuro-inc.github.io/blueprints/interactive-stack-diagram/stack_oss_aiia.html)
+* OSS "light" stack [preview](https://neuro-inc.github.io/blueprints/interactive-stack-diagram/stack_oss_light.html)
 
 Please retain the AIIA Logo on the diagrams when you use them, otherwise you are free to modify them in any way you see fit.
 
